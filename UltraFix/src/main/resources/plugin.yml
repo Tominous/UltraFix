@@ -1,0 +1,24 @@
+name: UltraFix
+description: UltraFix
+main: darkknights22.ultraseries.ultrafix.Repair
+version: 1.2.1
+author: DarkKnights22
+commands:
+  fix:
+    description: Fixes the item in your hand
+    aliases: [uf, ufx, ultrafix]
+  fix <playername>:
+    description: Fixes all items in that player's inventory
+    aliases: [uf, ultrafix]
+  fixall:
+    description: Fixes all fixable items in your inventory
+    aliases: [ufall, ufixall, ultrafixall, ufxa]
+  fixchest:
+    description: Fixes all fixable items in the chest you are looking at
+    aliases: [ufchest, ufxchest, ufixchest, ultrafixchest]
+  fixconfig:
+    description: saves/reloads the config
+    aliases: [ufconfig, ufxconfig, ufxconfig, ultrafixconfig, ultrafix reload, ufx reload, uf reload, ufix reload]
+  fixcd:
+    description: sets the cooldown to the number of seconds
+    aliases: [ufcd, ufxcd, ufixcd, ultrafixcd]
